@@ -1,1 +1,3 @@
 *.o
+mini_db
+.vscode
