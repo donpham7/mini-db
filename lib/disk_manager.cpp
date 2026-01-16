@@ -21,6 +21,8 @@ namespace minidb
         {
             throw std::runtime_error("Failed to open file " + db_file);
         }
+
+        next_page_id_ = 0;
     }
 
     DiskManager::~DiskManager()
